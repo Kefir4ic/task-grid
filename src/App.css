@@ -4,3 +4,24 @@ body,
     height: 100%;
     margin: 0;
 }
+
+.grid-container {
+    width: 700px;
+    height: 400px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+div {
+    background-color: #daa520;
+    height: 80px;
+}
+
+div:nth-child(3) {
+    height: 200px;
+}
+
+div:nth-child(4) {
+    height: 200px;
+}
